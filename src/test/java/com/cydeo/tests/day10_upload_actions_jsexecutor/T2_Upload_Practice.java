@@ -30,6 +30,7 @@ public class T2_Upload_Practice  {
         BrowserUtils.sleep(2); // just to see
 
         chooseFileButton.sendKeys(path);
+        //chooseFileButton.sendKeys("/Users/jawidkarimi/Desktop/Screenshot 2023-02-16 at 12.40.09 AM.png");
 
         WebElement uploadButton = Driver.getDriver().findElement(By.id("file-submit"));
         uploadButton.click();
